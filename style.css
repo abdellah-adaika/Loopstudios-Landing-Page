@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata@300;400;500family=Josefin Sans@300&display=swap');
+
+* {
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+
+body {
+  font-family: "Alata", sans-serif;
+  
+}
+
+
+.mobile-menu {
+  display:none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 75%;
+    height: 100vh;
+    background: white;
+    padding: 30px 24px;
+    z-index: 10;
+}
+.mobile-menu a {
+text-decoration: none;
+font-size:16px;
+
+}
+
+.mobile-menu li {
+  list-style:none;
+  margin-bottom:15px;
+}
+.close-menu {
+    display: block;
+    margin-left: auto;
+    border:none;
+    background: none;
+}
+
+.header {
+    background-image: url("image-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height:550px;
+    
+  padding:40px 24px;
+  position:relative;
+  align-items:flex-start;
+}
+
+.logo {
+  width:140px;
+  position: absolute;
+  top:40px;
+  left:24px;
+}
+
+
+.menu-btn {
+  background:none;
+  border:none;
+  padding:0;
+  position: absolute;
+  top:40px;
+  right:24px;
+}
+
+.menu-btn img {
+  width:25px;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+
+}
+
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    right: 24px;
+    transform: translateY(-50%);
+}
+
+.hero h1 {
+  font-family: "Alata", sans-serif;
+  font-weight:300;
+  font-size:40px;
+  color: white;
+  border:2px solid white;
+  padding:15px;
+  letter-spacing:2px;
+}
+
+
+.about {
+padding-top:80px;
+padding-bottom:80px;
+}
+
+.about img {
+  width:320px;
+  display:block;
+  margin:auto;
+  margin-bottom:35px;
+}
+
+.about h2 {
+  text-align:center;
+  font-family: "Alata", sans-serif;
+  font-weight:300;
+  font-size:30px;
+  letter-spacing:2px;
+  margin-bottom:25px;
+}
+
+.about p {
+  font-family: "Alata", sans-serif;
+  text-align:center;
+  line-height:1.8;
+  font-weight:500;
+  color: hsl(0, 0%, 0%);
+opacity:0.5;
+  margin:0 30px;
+  font-size:16px;
+}
+
+
+.creations {
+padding-bottom:80px;
+}
+.creations h2 {
+  text-align:center;
+  font-family: "Alata", sans-serif;
+  font-weight:300;
+  font-size:32px;
+  letter-spacing:2px;
+  margin-bottom:40px;
+}
+
+.creation-card {
+  position:relative;
+}
+
+.creation-card h3 {
+  position:absolute;
+  left:40px;
+  bottom:15px;
+  color:white;
+  font-family: "Alata", sans-serif;
+  font-weight:300;
+  font-size:23px;
+  opacity:0.9;
+}
+
+.creation-card img {
+  width:310px;
+  display:block;
+  margin:auto;
+  margin-bottom:25px;
+}
+
+.see-all {
+  display:block;
+  margin:0 auto;
+  margin-top:30px;
+  border:1.5px solid black;
+  background:white;
+  color:black;
+  font-size:14px;
+  padding:12px 35px;
+  letter-spacing:2px;
+  font-weight:500;
+  font-family: "Alata", sans-serif;
+}
+
+
+.footer {
+  background-color:black;
+  padding-bottom:40px;
+}
+
+
+.footer-logo {
+  width:145px;
+  display:block;
+  margin:auto;
+  padding-top:50px;
+  margin-bottom:30px;
+}
+
+
+.footer-links {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:25px;
+  
+}
+
+.footer-links a {
+  text-decoration:none;
+  color:white;
+  font-size: 15px;
+  font-weight:500;
+  opacity:0.9;
+}
+
+.social-links {
+  padding-top:40px;
+  margin-bottom:25px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:15px;
+}
+
+.social-links img {
+  width:24px;
+}
+
+
+.copyright {
+  text-align:center;
+  color:white;
+  opacity:0.7;
+  font-size:15px;
+  font-weight:500;
+}
